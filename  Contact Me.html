@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>Contact details</h1>
+  <ul>
+    <li>my cell no-9610002187</li>
+    <li>my email id-skykunnu@gmail.com</li>
+    <li>my linkedin id-skykunnu@gmail.com</li>
+  </ul>
+  <hr>
+  <form action="mailto:skykunnu@gmail.com" method="post" enctype="text/plain">
+    <!-- here mailto is where your detail will send along with your message will be send to specify email id-->
+    <!-- the text written in form is default to create name button we have to used label then input where user will write text -->
+
+    <label>Your Name- </label> <!-- it will be shown as label in our website -->
+    <input type="text" name="Your Name" value=""><br><br>
+    <label>Email- </label>
+    <input type="email" name="Your Email" value=""><br><br>
+    <label>Password-</label>
+    <input type="password" name="password" value=""><br><br>
+    <label>Any Message for me</label><br>
+    <textarea name="Your Message" rows="10" cols="30"></textarea><br><br>
+    <input type="submit" name=""><!-- the difference between above and below is of change of name and removal of value name from below . the value is removed because we dont want to write  anything there.-->
+
+
+  </form>
+
+</body>
+
+</html>
